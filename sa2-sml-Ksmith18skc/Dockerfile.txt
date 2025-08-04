@@ -1,0 +1,21 @@
+# Use the official Chapel 2.3 Docker image as the base
+FROM chapel/chapel:2.3.0
+
+# Update package lists and install dependencies for SWI-Prolog and PolyML
+RUN apt-get update && apt-get install -y \
+    swi-prolog \
+    polyml \
+    && apt-get clean
+
+# Set up a non-root user (optional)
+RUN useradd -ms /bin/bash devuser
+USER devuser
+WORKDIR /home/devuser
+
+# Verify installations
+RUN poly -version && \
+    swipl --version && \
+    chpl --version
+
+# Set default command
+CMD ["/bin/bash"]

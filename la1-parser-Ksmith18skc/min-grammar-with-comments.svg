@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+
+  <!-- rectangles -->
+  <rect x="20" y="20" width="300" height="250" fill="red" />
+  <rect x="30" y="20" width="300" height="250" fill="blue" />
+  <rect x = "40" y = "20" width = "300" height = "250" fill="green" />
+
+  <!-- white circle on top of rectangles -->
+  <circle cx="120" cy="150" r="60" fill="white" />
+
+  <!-- black diagonal line -->
+  <line x1="0" y1="0" x2="300" y2="300" stroke="black" />
+
+</svg>

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+<rect x="0" y="0" width="500" height="500" fill="green" />
+<rect x="50" y="50" width="450" height="450" fill="blue" />
+<circle cx="120" cy="150" r="60" fill="white" />
+<circle cx="250" cy="250" r="100" fill="yellow" />
+<circle cx="350" cy="150" r="60" fill="white" />
+<circle cx="120" cy="150" r="30" fill="blue" />
+<circle cx="350" cy="150" r="30" fill="blue" />
+<circle cx="120" cy="150" r="10" fill="black" />
+<circle cx="350" cy="150" r="10" fill="black" />
+<circle cx="250" cy="300" r="100" fill="red" />
+<circle cx="150" cy="150" r="50" fill="red" />
+<circle cx="350" cy="150" r="50" fill="red" />
+<circle cx="150" cy="350" r="50" fill="green" />
+<circle cx="350" cy="350" r="50" fill="green" />
+<line x1="250" y1="350" x2="350" y2="350" stroke="black" />
+<line x1="0" y1="0" x2="100" y2="100" stroke="black" />
+<line x1="100" y1="0" x2="200" y2="200" stroke="black" />
+<line x1="300" y1="0" x2="400" y2="400" stroke="black" />
+<line x1="500" y1="0" x2="500" y2="500" stroke="black" />
+<line x1="50" y1="0" x2="100" y2="100" stroke="black" />
+<line x1="150" y1="0" x2="200" y2="200" stroke="black" />
+<line x1="200" y1="0" x2="400" y2="400" stroke="black" />
+<line x1="400" y1="0" x2="400" y2="200" stroke="black" />
+<line x1="50" y1="50" x2="450" y2="450" stroke="black" />
+<line x1="450" y1="50" x2="50" y2="450" stroke="black" />
+<line x1="250" y1="50" x2="250" y2="450" stroke="black" />
+<line x1="50" y1="250" x2="450" y2="250" stroke="black" />
+</svg>
