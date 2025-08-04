@@ -5,7 +5,6 @@ Name: Kory Smith
 Time spent on LA2: ~4-5 hrs
 
 Collaborators and references: 
-- ChatGPT
 - Prolog documentation
 - SML documentation
 - SML type inference lecture notes
@@ -79,3 +78,4 @@ lookup(Var, [_ | Rest], Type) :- lookup(Var, Rest, Type).
 % --------------------------------------------------
 % Catch-all clause for unhandled expressions
 lookup(_,_,_) :- fail.
+
